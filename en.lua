@@ -205,8 +205,21 @@ Language['en'] = {
         setped = {
             help = 'Sets the ped of the player',
             title = 'Successful ped set',
+            playerSource = 'Player ID to set',
+            playerNotOnline = 'Player is not online',
+            pedModel = 'Ped Model to set',
             succeeded = 'You have set players ped to: %s',
             mysuccess = 'Your ped has been set to: %s, go to a clothes store to save it',
+        },
+        migrateskins = {
+            help = 'Migrates skins from old skin system to new skin system',
+            title = 'Successful Migration',
+            succeeded = 'You have successfully migrated your skins, amount of skins migrated: %s',
+        },
+        loadmyoutfits = {
+            help = 'Loads your outfits from the old system to the new system',
+            title = 'Loaded Outfits',
+            alreadyLoaded = 'You have already loaded your outfits',
         }
     },
     showTextUI = {
